@@ -1,0 +1,34 @@
+- [x] Basics
+- [] Comments
+- [] Numbers
+- [] Arithmetic Operators
+- [] Booleans
+- [] Strings Pakage
+- [] Strings
+- [] Conditionals If
+- [] Comparison
+- [] String Formatting
+- [] Packages
+- [] Slices
+- [] Variadic Functions
+- [] Conditionals Switch
+- [] Structs
+- [] Randomness
+- [] For Loops
+- [] Functions
+- [] Floating-point numbers
+- [] Time
+- [] Maps
+- [] Range Iteration
+- [] Type Definitions
+- [] Pointers
+- [] Methods
+- [] Runes
+- [] Regular Expressions
+- [] Interfaces
+- [] Zero Values
+- [] Stringers
+- [] Type Conversion
+- [] Type Assertion
+- [] Errors
+- [] First class functions
