@@ -8,4 +8,5 @@
 | 4 | Weather Forecast | 2025-1-7 | [Solution](./go/weather-forecast/weather_forecast.go) |
 | 5 | Cars Assemble | 2025-1-10 | [Solution](./go/cars-assemble/cars_assemble.go) |
 | 6 | Welcome to Tech Palace | 2025-1-10 | [Solution](./go/welcome-to-tech-palace/welcome_to_tech_palace.go) |
+| 7 | Party Robot| 2025-1-12 | [Solution](./go/party-robot/party_robot.go) |
 
