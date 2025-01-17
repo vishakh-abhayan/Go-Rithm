@@ -9,4 +9,5 @@
 | 5 | Cars Assemble | 2025-1-10 | [Solution](./go/cars-assemble/cars_assemble.go) |
 | 6 | Welcome to Tech Palace | 2025-1-10 | [Solution](./go/welcome-to-tech-palace/welcome_to_tech_palace.go) |
 | 7 | Party Robot| 2025-1-12 | [Solution](./go/party-robot/party_robot.go) |
+| 8 | Vehicle Purchase | 2025-1-17 | [Solution](./go/vehicle-purchase/vehicle_purchase.go) |
 
