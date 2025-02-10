@@ -13,3 +13,4 @@
 | 9 | Two Fer | 2025-Jan-17 | [Solution](./go/two-fer/two_fer.go) |
 | 10 | blackjack | 2025-Feb-5 | [Solution](./go/blackjack/blackjack.go) |
 | 11 | Need for speed | 2025-Feb-10 | [Solution](./go/need-for-speed/need_for_speed.go) |
+| 12 | Raindrops | 2025-Feb-10 | [Solution](./go/raindrops/raindrops.go) |
