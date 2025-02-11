@@ -14,3 +14,4 @@
 | 10 | blackjack | 2025-Feb-5 | [Solution](./go/blackjack/blackjack.go) |
 | 11 | Need for speed | 2025-Feb-10 | [Solution](./go/need-for-speed/need_for_speed.go) |
 | 12 | Raindrops | 2025-Feb-10 | [Solution](./go/raindrops/raindrops.go) |
+| 13 | Card Tricks | 2025-Feb-12 | [Solution](./go/card-tricks/card_tricks.go) |

@@ -48,6 +48,5 @@ func CanFinish(car Car, track Track) bool {
 	if car.battery < batteryConsume{
 		return false
 	}
-	
 	return true
 }
