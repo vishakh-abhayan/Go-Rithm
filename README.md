@@ -16,3 +16,4 @@
 | 12 | Raindrops | 2025-Feb-10 | [Solution](./go/raindrops/raindrops.go) |
 | 13 | Card Tricks | 2025-Feb-12 | [Solution](./go/card-tricks/card_tricks.go) |
 | 14 | Animal Magic | 2025-Feb-12 | [Solution](./go/animal-magic/animal_magic.go) |
+| 15 | Bird Watcher | 2025-Feb-13 | [Solution](./go/bird-watcher/bird_watcher.go) |
