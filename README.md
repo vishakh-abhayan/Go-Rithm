@@ -17,3 +17,4 @@
 | 13 | Card Tricks | 2025-Feb-12 | [Solution](./go/card-tricks/card_tricks.go) |
 | 14 | Animal Magic | 2025-Feb-12 | [Solution](./go/animal-magic/animal_magic.go) |
 | 15 | Bird Watcher | 2025-Feb-13 | [Solution](./go/bird-watcher/bird_watcher.go) |
+| 16 | Lasagna Master | 2025-Feb-19 | [Solution](./go/lasagna-master/lasagna_master.go) |
