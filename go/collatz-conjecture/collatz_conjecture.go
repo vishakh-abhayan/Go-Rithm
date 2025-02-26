@@ -1,12 +1,19 @@
 package collatzconjecture
 
+import "errors"
+
 func CollatzConjecture(n int) (int, error) {
-	var value int
-	for i:=0; value==1;i++{
-		if n % 2 == 0{
-			value = n/2
-		}
-		value = n * 3 + 1
+	if n <= 0 {
+		return 0, errors.New("invalid input")
 	}
-	return i, nil
+	steps := 0
+	for n != 1 {
+		if n%2 == 0 {
+			n /= 2
+		} else {
+			n = 3*n + 1
+		}
+		steps++
+	}
+	return steps, nil
 }
