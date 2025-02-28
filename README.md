@@ -19,3 +19,4 @@
 | 15  | Bird Watcher           | 2025-Feb-13     | [Solution](./go/bird-watcher/bird_watcher.go)                     |
 | 16  | Lasagna Master         | 2025-Feb-19     | [Solution](./go/lasagna-master/lasagna_master.go)                 |
 | 17  | Collatz Conjecture     | 2025-Feb-26     | [Solution](./go/collatz-conjecture/collatz_conjecture.go)         |
+| 18 | Gross Store            | 2025-Feb-26      | [Solution](./go/gross-store/gross_store.go)           			 |
