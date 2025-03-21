@@ -22,3 +22,4 @@
 | 18  | Gross Store            | 2025-Feb-28     | [Solution](./go/gross-store/gross_store.go)           			 |
 | 19  | Chess Board            | 2025-Feb-28     | [Solution](./go/chessboard/chessboard.go)           			     |
 | 20  | Election Day           | 2025-Mar-19     | [Solution](./go/election-day/election_day.go)           			 |
+| 21  | Logs Logs Logs         | 2025-Mar-21     | [Solution](./go/logs-logs-logs/logs_logs_logs.go)           		 |
