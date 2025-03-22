@@ -23,3 +23,4 @@
 | 19  | Chess Board            | 2025-Feb-28     | [Solution](./go/chessboard/chessboard.go)           			     |
 | 20  | Election Day           | 2025-Mar-19     | [Solution](./go/election-day/election_day.go)           			 |
 | 21  | Logs Logs Logs         | 2025-Mar-21     | [Solution](./go/logs-logs-logs/logs_logs_logs.go)           		 |
+| 22  | Booking up for Beauty  | 2025-Mar-23     | [Solution](./go/booking-up-for-beauty/booking_up_for_beauty.go)   |
