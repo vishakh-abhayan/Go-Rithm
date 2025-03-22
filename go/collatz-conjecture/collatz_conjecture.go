@@ -8,10 +8,10 @@ func CollatzConjecture(n int) (int, error) {
 	}
 	steps := 0
 	for n != 1 {
-		if n%2 == 0 {
-			n /= 2
+		if n&1 == 1 {
+			n = (n << 1) + n + 1
 		} else {
-			n = 3*n + 1
+			n >>= 1
 		}
 		steps++
 	}
