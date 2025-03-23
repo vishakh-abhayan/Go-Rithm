@@ -24,3 +24,4 @@
 | 20  | Election Day           | 2025-Mar-19     | [Solution](./go/election-day/election_day.go)           			 |
 | 21  | Logs Logs Logs         | 2025-Mar-21     | [Solution](./go/logs-logs-logs/logs_logs_logs.go)           		 |
 | 22  | Booking up for Beauty  | 2025-Mar-23     | [Solution](./go/booking-up-for-beauty/booking_up_for_beauty.go)   |
+| 23  | Interest is Interesting| 2025-Mar-23     | [Solution](./go/interest-is-interesting/interest_is_interesting.go)   |
