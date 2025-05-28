@@ -26,3 +26,4 @@
 | 22  | Booking up for Beauty  | 2025-Mar-23     | [Solution](./go/booking-up-for-beauty/booking_up_for_beauty.go)     |
 | 23  | Interest is Interesting| 2025-Mar-23     | [Solution](./go/interest-is-interesting/interest_is_interesting.go) |
 | 24  | Jedliks Toys		   | 2025-May-26     | [Solution](./go/jedliks-toys/jedliks_toys.go)                       |
+| 25  | Leap		           | 2025-May-29     | [Solution](./go/leap/leap.go)                                       |
