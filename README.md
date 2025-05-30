@@ -1,5 +1,3 @@
-# Exercism Go Track Progress
-
 | No. | Exercise Name          | Completion Date | Solution Link                                                       |
 | --- | ---------------------- | --------------- | --------------------------------------------------------------------|
 | 1   | Hello World            | 2024-Dec-19     | [Solution](./go/hello-world/hello_world.go)                         |
