@@ -2,21 +2,26 @@ package parsinglogfiles
 
 import "regexp"
 
+var (
+	validLineRegex    = regexp.MustCompile(`^(\[TRC\]|\[DBG\]|\[INF\]|\[WRN\]|\[ERR\]|\[FTL\])`)
+	splitLogLineRegex = regexp.MustCompile(`<[~*=-]*>`)
+	passwordsRegex    = regexp.MustCompile(`".*(?i:password).*"`)
+	endOfLineRegex    = regexp.MustCompile(`end-of-line\d+`)
+	userNameRegex     = regexp.MustCompile(`User\s+(\S+)`)
+)
+
 func IsValidLine(text string) bool {
-	re := regexp.MustCompile(`^(\[TRC\]|\[DBG\]|\[INF\]|\[WRN\]|\[ERR\]|\[FTL\])`)
-	return re.MatchString(text)
+	return validLineRegex.MatchString(text)
 }
 
 func SplitLogLine(text string) []string {
-	re := regexp.MustCompile(`<[~*=-]*>`)
-	return re.Split(text, -1)
+	return splitLogLineRegex.Split(text, -1)
 }
 
 func CountQuotedPasswords(lines []string) int {
 	var count int
-	re := regexp.MustCompile(`".*[Pp][Aa][Ss][Ss][Ww][Oo][Rr][Dd].*"`)
 	for _, x := range lines {
-		if re.MatchString(x) {
+		if passwordsRegex.MatchString(x) {
 			count++
 		}
 	}
@@ -24,21 +29,15 @@ func CountQuotedPasswords(lines []string) int {
 }
 
 func RemoveEndOfLineText(text string) string {
-	re := regexp.MustCompile(`end-of-line\d+`)
-	return re.ReplaceAllString(text, "")
+	return endOfLineRegex.ReplaceAllString(text, "")
 }
 
 func TagWithUserName(lines []string) []string {
-
-	findUser := regexp.MustCompile(`User\s`)
-	findUserId := regexp.MustCompile(`[a-zA-Z]+\d+`)
-
-	for i, x := range lines {
-		if findUser.MatchString(x) {
-			state := lines[i]
-			lines[i] = "[USR] " + findUserId.FindString(x) + " " + state
+	for i, line := range lines {
+		if matches := userNameRegex.FindStringSubmatch(line); matches != nil {
+			username := matches[1]
+			lines[i] = "[USR] " + username + " " + line
 		}
-
 	}
 	return lines
 }
