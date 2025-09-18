@@ -29,14 +29,16 @@ func RemoveEndOfLineText(text string) string {
 }
 
 func TagWithUserName(lines []string) []string {
-	var tagLine []string
-	findUser := regexp.MustCompile(`User `)
-	findUserId := regexp.MustCompile(`.+\d*`)
-	for _, x := range lines {
+
+	findUser := regexp.MustCompile(`User\s`)
+	findUserId := regexp.MustCompile(`[a-zA-Z]+\d+`)
+
+	for i, x := range lines {
 		if findUser.MatchString(x) {
-			append(tagLine, "[USR]"+findUserId.FindString(x))
+			state := lines[i]
+			lines[i] = "[USR] " + findUserId.FindString(x) + " " + state
 		}
-		append(tagLine, x)
+
 	}
-	return tagLine
+	return lines
 }
